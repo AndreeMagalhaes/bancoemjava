@@ -1,5 +1,5 @@
 package teste;
-import java.io.IOException;
+import java.io.IOException;0
 import java.util.Scanner;
 
 public class Teste
