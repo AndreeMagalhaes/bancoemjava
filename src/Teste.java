@@ -1,5 +1,5 @@
 package teste;
-import java.io.IOException;0
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Teste
@@ -53,7 +53,7 @@ public class Teste
                     }else
                     {
                         saldo += deposito;
-                        System.out.println("R$" + saldo);
+                        System.out.println("DEPOSITO REALIZADO R$" + saldo);
                     }
                     break;
 
