@@ -6,7 +6,7 @@ public class Teste
 {
     public static void cls() throws IOException, InterruptedException { new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();}
 
-    public static void main(String[] args) throws IOException, InterruptedException
+    private static void main(String[] args) throws IOException, InterruptedException
     {
         int menu;
         float saque;
@@ -53,7 +53,7 @@ public class Teste
                     }else
                     {
                         saldo += deposito;
-                        System.out.println("R$" + saldo);
+                        System.out.println("DEPOSITO REALIZADO R$" + saldo);
                     }
                     break;
 
