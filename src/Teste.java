@@ -6,13 +6,13 @@ public class Teste
 {
     public static void cls() throws IOException, InterruptedException { new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();}
 
-    public static void main(String[] args) throws IOException, InterruptedException
+    private static void main(String[] args) throws IOException, InterruptedException
     {
         int menu;
         float saque;
         float deposito;
         boolean sair = false;
-        float saldo =0;
+        float saldo =10000;
 
 
         Scanner scanner = new Scanner(System.in);
