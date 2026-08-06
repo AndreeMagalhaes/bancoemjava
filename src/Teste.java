@@ -27,7 +27,7 @@ public class Teste
             switch (menu)
             {
                 case 0:
-                    System.out.println("caixa finalizado");
+                    System.out.println("caixa fechado");
                     sair = true;
                     break;
 
