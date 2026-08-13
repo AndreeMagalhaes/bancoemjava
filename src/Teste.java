@@ -12,7 +12,7 @@ public class Teste
         float saque;
         float deposito;
         boolean sair = false;
-        float saldo =30000;
+        float saldo =0;
 
 
         Scanner scanner = new Scanner(System.in);
